@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9289FA241F530B180061B007 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9289FA231F530B180061B007 /* main.m */; };
+		9289FA2D1F5310C80061B007 /* SavingsAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9289FA2C1F5310C80061B007 /* SavingsAccount.m */; };
+		9289FA301F5311200061B007 /* CheckingAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9289FA2F1F5311200061B007 /* CheckingAccount.m */; };
+		9289FA331F53126D0061B007 /* AccountFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9289FA321F53126D0061B007 /* AccountFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		9289FA201F530B180061B007 /* FactoryPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		9289FA231F530B180061B007 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9289FA2A1F530BE10061B007 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		9289FA2B1F5310C80061B007 /* SavingsAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavingsAccount.h; sourceTree = "<group>"; };
+		9289FA2C1F5310C80061B007 /* SavingsAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingsAccount.m; sourceTree = "<group>"; };
+		9289FA2E1F5311200061B007 /* CheckingAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckingAccount.h; sourceTree = "<group>"; };
+		9289FA2F1F5311200061B007 /* CheckingAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckingAccount.m; sourceTree = "<group>"; };
+		9289FA311F53126D0061B007 /* AccountFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountFactory.h; sourceTree = "<group>"; };
+		9289FA321F53126D0061B007 /* AccountFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				9289FA231F530B180061B007 /* main.m */,
+				9289FA2A1F530BE10061B007 /* Account.h */,
+				9289FA2B1F5310C80061B007 /* SavingsAccount.h */,
+				9289FA2C1F5310C80061B007 /* SavingsAccount.m */,
+				9289FA2E1F5311200061B007 /* CheckingAccount.h */,
+				9289FA2F1F5311200061B007 /* CheckingAccount.m */,
+				9289FA311F53126D0061B007 /* AccountFactory.h */,
+				9289FA321F53126D0061B007 /* AccountFactory.m */,
 			);
 			path = FactoryPattern;
 			sourceTree = "<group>";
@@ -120,7 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9289FA331F53126D0061B007 /* AccountFactory.m in Sources */,
 				9289FA241F530B180061B007 /* main.m in Sources */,
+				9289FA301F5311200061B007 /* CheckingAccount.m in Sources */,
+				9289FA2D1F5310C80061B007 /* SavingsAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
