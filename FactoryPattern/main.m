@@ -23,8 +23,6 @@ int main(int argc, const char * argv[]) {
         NSLog(@"accoutChecking Deposit:%@",[accoutChecking Deposit :2]);
         NSLog(@"accoutChecking InterestRate:%f",[accoutChecking InterestRate]);
         
-        
-        //[noTimestamp outputText:@"Without a time stamp"];
     }
     return 0;
 }
